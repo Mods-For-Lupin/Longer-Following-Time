@@ -28,7 +28,7 @@
         "fabric": "*",
         "minecraft": "${minecraft_version}",
         "java": ">=17",
-        "monolib": ">=3.0.2"
+        "monolib": ">=2.1.0"
     },
     "suggests": {
         "another-mod": "*"
