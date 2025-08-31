@@ -77,6 +77,8 @@ dependencies {
 
     // Forge's hack fix
     implementation('net.sf.jopt-simple:jopt-simple:5.0.4') { version { strictly '5.0.4' } }
+
+    implementation 'maven.modrinth:monolib:forge-1.21.1-2.1.0'
 }
 
 publishing {
