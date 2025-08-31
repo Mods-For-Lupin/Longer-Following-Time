@@ -7,7 +7,6 @@ import java.io.File;
 public class LongerFollowingTime {
 
   public static void init() {
-    createOrLoadConfig();
   }
 
   public static void createOrLoadConfig() {
