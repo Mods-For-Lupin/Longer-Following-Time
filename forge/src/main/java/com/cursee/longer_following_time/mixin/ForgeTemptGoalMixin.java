@@ -1,8 +1,10 @@
 package com.cursee.longer_following_time.mixin;
 
 import com.cursee.longer_following_time.ConfiguredValues;
+import java.util.function.Predicate;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.goal.TemptGoal;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -20,7 +22,8 @@ public class ForgeTemptGoalMixin {
 
   @Shadow
   @Final
-  private Ingredient items;
+  // private Ingredient items; // 1.20.1
+  private Predicate<ItemStack> items; // 1.21.1
 
   @Inject(at = @At("TAIL"), method = "shouldFollow", cancellable = true)
   private void longer_following_time$shouldFollow(LivingEntity entity,
