@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.cursee.longer_following_time.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "NeoForgeTemptGoalMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
