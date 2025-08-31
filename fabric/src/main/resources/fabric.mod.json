@@ -28,7 +28,7 @@
         "fabric-api": "*",
         "minecraft": "~${minecraft_version}",
         "java": ">=${java_version}",
-        "monolib": ">=2.1.0"
+        "monolib": ">=3.0.2"
     },
     "suggests": {
         "another-mod": "*"

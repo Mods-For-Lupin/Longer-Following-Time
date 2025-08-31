@@ -36,7 +36,7 @@ license = "${license}" # Review your options at https://choosealicense.com/.
 [[dependencies.${mod_id}]]
     modId = "monolib"
     type="required" #mandatory (Can be one of "required", "optional", "incompatible" or "discouraged")
-    versionRange = "[2.1.0,)"
+    versionRange = "[3.0.2,)"
     ordering = "NONE"
     side = "BOTH"
 
