@@ -10,5 +10,6 @@
   "server": [],
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "plugin": "com.cursee.longer_following_time.NeoForgeMixinConfigPlugin"
 }
